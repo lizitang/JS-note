@@ -3,7 +3,7 @@ var CookieUtil = {
 	get : function(name){
 		var cookieName = decodeURIComponent(name) + "=",
 			cookieStart = document.cookie.indexof(cookieName),
-			cookieValue = mull;
+			cookieValue = null;
 		
 		if(cookieStart > -1){
 			var cookieEnd =document.cookie.indexof(';',cookieStart),
