@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>transition</title>
+	<style>
+		.test{
+			width:100px;
+			height:100px;
+			background: pink;
+			transition:width 3s ease 0s;
+		}
+		.test:hover{
+			width:500px;
+		}
+	</style>
+</head>
+<body>
+	<!-- transition是一个复合属性 ，包括：
+	transition-property：过度属性
+	transition-duration：过度时间
+	transition-timing-function:过度函数默认ease
+	transition-delay：过度延迟时间-->
+
+
+	<!-- 栗子 -->
+	<div class="test"></div>
+</body>
+</html>
