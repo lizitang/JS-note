@@ -35,7 +35,7 @@ var CookieUtil = {
 	},
 
 	//删除
-	unset : function(name,value,expires,path.domain,secure){
+	unset : function(name,value,expires,path,domain,secure){
 		this.set(name,"",new Date(0),path,domain,secure);
 	}
 }
